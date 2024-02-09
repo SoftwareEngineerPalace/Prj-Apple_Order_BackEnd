@@ -27,5 +27,4 @@ app.get("/order/getLineItemByOrderId", (req, res) => {
   res.send({ code: 200, message: 'success', data: result });
 });
 
-app.listen(3001, () => {
-});
+app.listen(3001, () => {});
