@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const querystring = require('querystring');
-const { orderList, orderLineItemList } = require('./mockData');
+const { orderList, orderLineItemList } = require('./mock');
 
 const app = express();
 
